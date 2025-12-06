@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.Testing" time="53.202" tests="5" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Myntra-automation\target\test-classes;D:\Myntra-automation\target\classes;C:\Users\ram24\.m2\repository\com\microsoft\playwright\playwright\1.46.0\playwright-1.46.0.jar;C:\Users\ram24\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\ram24\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\ram24\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ram24\.m2\repository\com\microsoft\playwright\driver\1.46.0\driver-1.46.0.jar;C:\Users\ram24\.m2\repository\com\microsoft\playwright\driver-bundle\1.46.0\driver-bundle-1.46.0.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\ram24\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\ram24\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\ram24\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\ram24\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-junit\7.11.1\cucumber-junit-7.11.1.jar;C:\Users\ram24\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ram24\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ram24\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\ram24\AppData\Local\Temp\surefire14383924624618298376\surefirebooter-20251206223609002_3.jar C:\Users\ram24\AppData\Local\Temp\surefire14383924624618298376 2025-12-06T22-36-08_773-jvmRun1 surefire-20251206223609002_1tmp surefire_0-20251206223609002_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Myntra-automation\target\test-classes;D:\Myntra-automation\target\classes;C:\Users\ram24\.m2\repository\com\microsoft\playwright\playwright\1.46.0\playwright-1.46.0.jar;C:\Users\ram24\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\ram24\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\ram24\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ram24\.m2\repository\com\microsoft\playwright\driver\1.46.0\driver-1.46.0.jar;C:\Users\ram24\.m2\repository\com\microsoft\playwright\driver-bundle\1.46.0\driver-bundle-1.46.0.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\ram24\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\ram24\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\ram24\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\ram24\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\ram24\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ram24\.m2\repository\io\cucumber\cucumber-junit\7.11.1\cucumber-junit-7.11.1.jar;C:\Users\ram24\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ram24\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ram24\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ram24"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Myntra-automation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ram24\AppData\Local\Temp\surefire14383924624618298376\surefirebooter-20251206223609002_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
+    <property name="user.name" value="Ram"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ram24\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ram24\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="D:\Myntra-automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\ram24\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\ram24\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-21\bin;C:\hadoopsetup\hadoop-3.2.4\bin;D:\flutter\flutter\bin;C:\derby\db-derby-10.14.2.0-bin\db-derby-10.14.2.0-bin\bin;C:\hive\apache-hive-3.1.3-bin\apache-hive-3.1.3-bin\bin;C:\hbasesetup\hbase-1.4.9-bin\hbase-1.4.9\bin;C:\pig-0.17.0\pig-0.17.0\bin;C:\spark\bin;C:\winutils\bin;C:\Program Files\nodejs\;C:\kafka\bin;C:\Program Files\apache-maven-3.9.11\bin;C:\Users\ram24\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ram24\AppData\Local\Programs\Python\Python312\;C:\Users\ram24\AppData\Local\Programs\Python\Launcher\;C:\Users\ram24\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;D:\platform-tools;C:\Program Files\Java\jdk-21\bin;D:\Ubuntu ISO\ubuntu-22.04.3-desktop-amd64.iso;C:\Users\ram24\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ram24\AppData\Roaming\TinyTeX\bin\windows;C:\Users\ram24\AppData\Roaming\npm;c:\Users\ram24\.vscode\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.9+7-LTS-338"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Find discounted Kurti for HRX under Women category" classname="Get discounted products from Myntra based on gender, type, and brand #1" time="20.507">
+    <failure message="Exact product type &apos;Kurti&apos; not found in dropdown." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Exact product type 'Kurti' not found in dropdown.
+	at org.junit.Assert.fail(Assert.java:89)
+	at steps.Myntra.chooseProductType(Myntra.java:75)
+	at ✽.I choose "Kurti" as the product category(file:///D:/Myntra-automation/src/test/resources/features/neg.feature:6)
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline: Find discounted Kurti for HRX under Women category    # src/test/resources/features/neg.feature:14
+  Given I open the Myntra website at "https://www.myntra.com"           # steps.Myntra.openWebPage(java.lang.String)
+  When I select "Women" as the gender                                   # steps.Myntra.chooseGender(java.lang.String)
+  And I choose "Kurti" as the product category                          # steps.Myntra.chooseProductType(java.lang.String)
+      java.lang.AssertionError: Exact product type 'Kurti' not found in dropdown.
+	at org.junit.Assert.fail(Assert.java:89)
+	at steps.Myntra.chooseProductType(Myntra.java:75)
+	at ✽.I choose "Kurti" as the product category(file:///D:/Myntra-automation/src/test/resources/features/neg.feature:6)
+
+  And I apply the brand filter for "HRX"                                # steps.Myntra.applyBrandFilter(java.lang.String)
+  Then I collect the products that are on discount from maximum 2 pages # steps.Myntra.collectDiscountedProducts(int)
+  And I sort those products based on discount in descending order       # steps.Myntra.sortByDiscount()
+  And I print the final product list to the console                     # steps.Myntra.printSortedResults()
+]]></system-out>
+  </testcase>
+  <testcase name="Find discounted Spacesuit for Puma under Women category" classname="Get discounted products from Myntra based on gender, type, and brand #1" time="7.287">
+    <failure message="Exact product type &apos;Spacesuit&apos; not found in dropdown." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Exact product type 'Spacesuit' not found in dropdown.
+	at org.junit.Assert.fail(Assert.java:89)
+	at steps.Myntra.chooseProductType(Myntra.java:75)
+	at ✽.I choose "Spacesuit" as the product category(file:///D:/Myntra-automation/src/test/resources/features/neg.feature:6)
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline: Find discounted Spacesuit for Puma under Women category # src/test/resources/features/neg.feature:15
+  Given I open the Myntra website at "https://www.myntra.com"             # steps.Myntra.openWebPage(java.lang.String)
+  When I select "Women" as the gender                                     # steps.Myntra.chooseGender(java.lang.String)
+  And I choose "Spacesuit" as the product category                        # steps.Myntra.chooseProductType(java.lang.String)
+      java.lang.AssertionError: Exact product type 'Spacesuit' not found in dropdown.
+	at org.junit.Assert.fail(Assert.java:89)
+	at steps.Myntra.chooseProductType(Myntra.java:75)
+	at ✽.I choose "Spacesuit" as the product category(file:///D:/Myntra-automation/src/test/resources/features/neg.feature:6)
+
+  And I apply the brand filter for "Puma"                                 # steps.Myntra.applyBrandFilter(java.lang.String)
+  Then I collect the products that are on discount from maximum 2 pages   # steps.Myntra.collectDiscountedProducts(int)
+  And I sort those products based on discount in descending order         # steps.Myntra.sortByDiscount()
+  And I print the final product list to the console                       # steps.Myntra.printSortedResults()
+]]></system-out>
+  </testcase>
+  <testcase name="Find discounted Blazers for Adidas under Men category" classname="Get discounted products from Myntra based on gender, type, and brand #1" time="0.044">
+    <failure message="Invalid Myntra URL." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Invalid Myntra URL.
+	at org.junit.Assert.fail(Assert.java:89)
+	at steps.Myntra.openWebPage(Myntra.java:29)
+	at ✽.I open the Myntra website at "https://www.google.com"(file:///D:/Myntra-automation/src/test/resources/features/neg.feature:4)
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline: Find discounted Blazers for Adidas under Men category # src/test/resources/features/neg.feature:16
+  Given I open the Myntra website at "https://www.google.com"           # steps.Myntra.openWebPage(java.lang.String)
+      java.lang.AssertionError: Invalid Myntra URL.
+	at org.junit.Assert.fail(Assert.java:89)
+	at steps.Myntra.openWebPage(Myntra.java:29)
+	at ✽.I open the Myntra website at "https://www.google.com"(file:///D:/Myntra-automation/src/test/resources/features/neg.feature:4)
+
+  When I select "Men" as the gender                                     # steps.Myntra.chooseGender(java.lang.String)
+  And I choose "Blazers" as the product category                        # steps.Myntra.chooseProductType(java.lang.String)
+  And I apply the brand filter for "Adidas"                             # steps.Myntra.applyBrandFilter(java.lang.String)
+  Then I collect the products that are on discount from maximum 2 pages # steps.Myntra.collectDiscountedProducts(int)
+  And I sort those products based on discount in descending order       # steps.Myntra.sortByDiscount()
+  And I print the final product list to the console                     # steps.Myntra.printSortedResults()
+]]></system-out>
+  </testcase>
+  <testcase name="Find discounted T-shirts for Van Heusen under Men category" classname="Get discounted products from Myntra based on gender, type, and brand #2" time="6.876">
+    <failure message="Exact product type &apos;T-shirts&apos; not found in dropdown." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Exact product type 'T-shirts' not found in dropdown.
+	at org.junit.Assert.fail(Assert.java:89)
+	at steps.Myntra.chooseProductType(Myntra.java:75)
+	at ✽.I choose "T-shirts" as the product category(file:///D:/Myntra-automation/src/test/resources/features/pos.feature:6)
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline: Find discounted T-shirts for Van Heusen under Men category # src/test/resources/features/pos.feature:14
+  Given I open the Myntra website at "https://www.myntra.com"                # steps.Myntra.openWebPage(java.lang.String)
+  When I select "Men" as the gender                                          # steps.Myntra.chooseGender(java.lang.String)
+  And I choose "T-shirts" as the product category                            # steps.Myntra.chooseProductType(java.lang.String)
+      java.lang.AssertionError: Exact product type 'T-shirts' not found in dropdown.
+	at org.junit.Assert.fail(Assert.java:89)
+	at steps.Myntra.chooseProductType(Myntra.java:75)
+	at ✽.I choose "T-shirts" as the product category(file:///D:/Myntra-automation/src/test/resources/features/pos.feature:6)
+
+  And I apply the brand filter for "Van Heusen"                              # steps.Myntra.applyBrandFilter(java.lang.String)
+  Then I collect the products that are on discount from maximum 2 pages      # steps.Myntra.collectDiscountedProducts(int)
+  And I sort those products based on discount in descending order            # steps.Myntra.sortByDiscount()
+  And I print the final product list to the console                          # steps.Myntra.printSortedResults()
+]]></system-out>
+  </testcase>
+  <testcase name="Find discounted Casual Shirts for Roadster under Men category" classname="Get discounted products from Myntra based on gender, type, and brand #2" time="17.941">
+    <system-out><![CDATA[
+Scenario Outline: Find discounted Casual Shirts for Roadster under Men category # src/test/resources/features/pos.feature:15
+  Given I open the Myntra website at "https://www.myntra.com"                   # steps.Myntra.openWebPage(java.lang.String)
+  When I select "Men" as the gender                                             # steps.Myntra.chooseGender(java.lang.String)
+  And I choose "Casual Shirts" as the product category                          # steps.Myntra.chooseProductType(java.lang.String)
+  And I apply the brand filter for "Roadster"                                   # steps.Myntra.applyBrandFilter(java.lang.String)
+  Then I collect the products that are on discount from maximum 2 pages         # steps.Myntra.collectDiscountedProducts(int)
+  And I sort those products based on discount in descending order               # steps.Myntra.sortByDiscount()
+Discounted Casual Shirts for Roadster in Men category:
+Original Price: Rs. 2199
+Discount: [79%]
+After discount: Rs. 460
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-faded-casual-shirt/14878214/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2799
+Discount: [78%]
+After discount: Rs. 592
+Link: https://www.myntra.comshirts/roadster/roadster-men-relaxed-fit-pure-cotton-casual-shirt/29872316/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2099
+Discount: [77%]
+After discount: Rs. 475
+Link: https://www.myntra.comshirts/roadster/roadster-men-charcoal-grey-faded-denim-casual-shirt/14878224/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2199
+Discount: [74%]
+After discount: Rs. 565
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-regular-fit-solid-chambray-casual-shirt/9951575/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: [73%]
+After discount: Rs. 470
+Link: https://www.myntra.comshirts/roadster/roadster-men-grey-solid-regular-fit--cotton-casual-shirt/15557630/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: [73%]
+After discount: Rs. 470
+Link: https://www.myntra.comshirts/roadster/roadster-men-grey-solid-regular-fit--cotton-casual-shirt/15557630/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: [73%]
+After discount: Rs. 474
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-faded-denim-shirt/8894777/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: [72%]
+After discount: Rs. 470
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-solid-washed-cotton-denim-shirt/15615862/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: [72%]
+After discount: Rs. 550
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-pure-cotton-checked-casual-shirt/19742848/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: [72%]
+After discount: Rs. 469
+Link: https://www.myntra.comshirts/roadster/roadster-men-grey-faded-denim-casual-shirt/8894529/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: [71%]
+After discount: Rs. 460
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-spread-collar-pure-cotton-casual-shirt/34947504/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: [71%]
+After discount: Rs. 550
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue--magenta-pink-regular-fit-checked-casual-shirt/10863018/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: [71%]
+After discount: Rs. 478
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-solid-casual-shirt/32215259/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: [71%]
+After discount: Rs. 565
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue--grey-checked-casual-shirt/9951777/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: [71%]
+After discount: Rs. 433
+Link: https://www.myntra.comshirts/roadster/roadster-men-maroon-printed-casual-shirt/19624698/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: [71%]
+After discount: Rs. 460
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-spread-collar-pure-cotton-casual-shirt/34947504/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: [71%]
+After discount: Rs. 550
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue--magenta-pink-regular-fit-checked-casual-shirt/10863018/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: [71%]
+After discount: Rs. 462
+Link: https://www.myntra.comshirts/roadster/roadster-men-burgundy-regular-fit-solid-casual-shirt/11957954/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: [71%]
+After discount: Rs. 456
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-spread-collar-pure-cotton-casual-shirt/34947495/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: [71%]
+After discount: Rs. 456
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-spread-collar-pure-cotton-casual-shirt/34947500/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: [70%]
+After discount: Rs. 599
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co--cotton-full-sleeve-shirts/29936231/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: [70%]
+After discount: Rs. 599
+Link: https://www.myntra.comshirts/roadster/-the-roadster-lifestyle-co-pure-cotton-casual-shirts/29936232/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2499
+Discount: [70%]
+After discount: Rs. 749
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-solid-cotton-linen-shirt/33967248/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2499
+Discount: [70%]
+After discount: Rs. 749
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-premium-linen-cotton-casual-shirt/33506461/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: [70%]
+After discount: Rs. 438
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue-pure-cotton-abstract-printed-casual-shirt/19624696/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: [70%]
+After discount: Rs. 409
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-pure-cotton-casual-shirt/18199964/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: [70%]
+After discount: Rs. 599
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-casual-shirts/29936237/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: [70%]
+After discount: Rs. 599
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-full-sleeve-shirts/29936235/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: [69%]
+After discount: Rs. 464
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-denim-washed-casual-shirt/1358818/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (69% OFF)
+After discount: Rs. 557
+Link: https://www.myntra.comshirts/roadster/roadster-men-charcoal-grey-pure-cotton-solid-casual-shirt/14878974/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: [69%]
+After discount: Rs. 464
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-denim-washed-casual-shirt/1358818/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2299
+Discount: [69%]
+After discount: Rs. 697
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-regular-fit-solid-casual--shirt/12164220/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: [68%]
+After discount: Rs. 570
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-blue-regular-fit-faded-opaque-pure-cotton-casual-denim-shirt-with-pockets/15557602/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (68% OFF)
+After discount: Rs. 543
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue--multicoloured-slim-fit-checked-casual-shirt/12947298/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: [67%]
+After discount: Rs. 586
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-blue-regular-fit-faded-opaque--cotton-casual-denim-shirt-with-pockets/15557638/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: [66%]
+After discount: Rs. 611
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-classic-regular-fit-spread-collar-checked-pure-cotton-shirt/35500163/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (66% OFF)
+After discount: Rs. 645
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co--denim-casual-shirt/32530513/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: [65%]
+After discount: Rs. 545
+Link: https://www.myntra.comshirts/roadster/roadster-men-charcoal--cotton-casual-shirt/12919638/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: [65%]
+After discount: Rs. 684
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-opaque-cotton-linen-casual-shirt/14878088/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (65% OFF)
+After discount: Rs. 699
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue--maroon-regular-fit-oxford-checked-sustainable-casual-shirt/12947680/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: [65%]
+After discount: Rs. 592
+Link: https://www.myntra.comshirts/roadster/roadster-men-charcoal-grey--navy-blue-regular-fit-checked-casual-shirt/13130980/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2499
+Discount: [64%]
+After discount: Rs. 899
+Link: https://www.myntra.comshirts/roadster/roadster-men-premium-linen-cotton-casual-shirt/30912353/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (64% OFF)
+After discount: Rs. 611
+Link: https://www.myntra.comshirts/roadster/roadster-men-teal-green--mustard-yellow-pure-cotton-windowpane-checked-casual-shirt/14631850/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (64% OFF)
+After discount: Rs. 719
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue--olive-green-regular-fit-checked-casual-shirt/12947292/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: [64%]
+After discount: Rs. 564
+Link: https://www.myntra.comshirts/roadster/roadster-men-black-regular-fit-solid-casual--shirt/12442716/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (64% OFF)
+After discount: Rs. 539
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-checked-pure-cotton-casual-shirt/27392982/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (64% OFF)
+After discount: Rs. 539
+Link: https://www.myntra.comshirts/roadster/roadster-men-charcoal-grey-stretchable-casual-shirt/8920449/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1599
+Discount: [64%]
+After discount: Rs. 575
+Link: https://www.myntra.comshirts/roadster/roadster-men-olive-green-casual-shirt/14641510/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (64% OFF)
+After discount: Rs. 611
+Link: https://www.myntra.comshirts/roadster/roadster-men-tartan-checked--cotton-casual-shirt/14625152/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: [63%]
+After discount: Rs. 696
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-cotton-linen-casual-shirt-with-roll-up-sleeves/11896042/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: [63%]
+After discount: Rs. 699
+Link: https://www.myntra.comshirts/roadster/roadster-men-green--navy-blue-checked-casual-shirt/9680385/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (63% OFF)
+After discount: Rs. 628
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-pure-cotton-checked-casual-shirt/21990854/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (63% OFF)
+After discount: Rs. 628
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-gingham-checked-casual-shirt/21990856/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: [63%]
+After discount: Rs. 739
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-spread-collar-casual-shirt/33503015/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: [63%]
+After discount: Rs. 702
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-classic-regular-fit-spread-collar-pure-cotton-opaque-shirt/35501102/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (61% OFF)
+After discount: Rs. 740
+Link: https://www.myntra.comshirts/roadster/roadster-men-grey-solid-cotton--casual-shirt/14640504/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (61% OFF)
+After discount: Rs. 701
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-textured-cutaway-collar-pure-cotton-casual-shirt/29901886/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2099
+Discount: (61% OFF)
+After discount: Rs. 818
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-relaxed-fit-drop-shoulder-sleeves--denim-casual-shirt/32530515/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (61% OFF)
+After discount: Rs. 584
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-green-solid-pure-cotton-regular-fit-casual-shirt/13663210/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (61% OFF)
+After discount: Rs. 584
+Link: https://www.myntra.comshirts/roadster/roadster-men-black--blue-regular-fit-checked-casual-shirt/11896354/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2099
+Discount: (61% OFF)
+After discount: Rs. 818
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-relaxed-fit-faded-drop-shoulder-sleeves--denim-casual-shirt/32530504/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: [60%]
+After discount: Rs. 587
+Link: https://www.myntra.comshirts/roadster/roadster-twilight-mauve-slim-fit-casual-shirt/12947272/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: [59%]
+After discount: Rs. 603
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-regular-fit-solid-casual-shirt/12442722/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: [59%]
+After discount: Rs. 409
+Link: https://www.myntra.comshirts/roadster/roadster-men-pure-cotton-casual-shirt/30081625/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (59% OFF)
+After discount: Rs. 614
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-tartan-checked-spread-collar-relaxed-fit-pure-cotton-casual-shirt/32020548/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (59% OFF)
+After discount: Rs. 696
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-popcorn-texture-pure-cotton-casual-shirt/21990738/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (58% OFF)
+After discount: Rs. 629
+Link: https://www.myntra.comshirts/roadster/roadster-men-brown--black-slim-fit-checked-casual-shirt/2164373/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: [58%]
+After discount: Rs. 576
+Link: https://www.myntra.comshirts/roadster/roadster-men-grey-regular-fit-solid-casual-shirt/12442720/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1999
+Discount: (58% OFF)
+After discount: Rs. 839
+Link: https://www.myntra.comshirts/roadster/roadster-men-white-cotton-linen-casual-shirt/8217987/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: [57%]
+After discount: Rs. 422
+Link: https://www.myntra.comshirts/roadster/roadster-men-standard-casual-pure-cotton-shirt/32179081/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: [57%]
+After discount: Rs. 422
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-solid-pure-cotton-casual-shirt/31035440/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (57% OFF)
+After discount: Rs. 558
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue--olive-green-checked-casual-shirt/10944918/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (57% OFF)
+After discount: Rs. 644
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-pure-cotton-checked-casual-shirt/27392980/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1399
+Discount: (57% OFF)
+After discount: Rs. 601
+Link: https://www.myntra.comshirts/roadster/roadster-men-black-regular-fit-solid-opaque--cotton-casual-shirt/11896080/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: [57%]
+After discount: Rs. 422
+Link: https://www.myntra.comshirts/roadster/roadster-men-standard-casual-pure-cotton-shirt/32179081/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (57% OFF)
+After discount: Rs. 730
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-navy-blue--white-regular-fit-checked-casual-shirt/10863030/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (57% OFF)
+After discount: Rs. 558
+Link: https://www.myntra.comshirts/roadster/roadster-men-black--grey-regular-fit-checked-casual-shirt/10397849/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (57% OFF)
+After discount: Rs. 730
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue-regular-fit-solid-cotton-linen-casual-shirt/11326594/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1899
+Discount: (56% OFF)
+After discount: Rs. 835
+Link: https://www.myntra.comshirts/roadster/roadster-men-regular-fit-checked-casual-shirt/11686020/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (55% OFF)
+After discount: Rs. 584
+Link: https://www.myntra.comshirts/roadster/roadster-men-olive-green--black-checked-casual-shirt/11326780/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (55% OFF)
+After discount: Rs. 764
+Link: https://www.myntra.comshirts/roadster/roadster-men-green--cotton-regular-fit-solid--casual-shirt/12919364/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: [55%]
+After discount: Rs. 574
+Link: https://www.myntra.comshirts/roadster/the-roadster-life-co-pure-cotton-casual-shirt/32689089/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (55% OFF)
+After discount: Rs. 674
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue--red-regular-fit-checked-sustainable-casual-shirt/12947322/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: [54%]
+After discount: Rs. 452
+Link: https://www.myntra.comshirts/roadster/roadster-men-olive-green--cotton-casual-shirt/11904108/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1499
+Discount: (54% OFF)
+After discount: Rs. 689
+Link: https://www.myntra.comshirts/roadster/roadster-men-burgundy--black-checked--cotton-casual-shirt/11327084/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: [53%]
+After discount: Rs. 461
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue--cotton-casual-shirt/9713949/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: (52% OFF)
+After discount: Rs. 575
+Link: https://www.myntra.comshirts/roadster/roadster-men-black--cotton-casual-shirt/11896108/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1699
+Discount: (51% OFF)
+After discount: Rs. 832
+Link: https://www.myntra.comshirts/roadster/roadster-men-khaki-solid-linen-regular-fit-casual-shirt/10945190/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (51% OFF)
+After discount: Rs. 636
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue-solid-regular-fit-casual-shirt/11896098/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 999
+Discount: [50%]
+After discount: Rs. 493
+Link: https://www.myntra.comshirts/roadster/roadster-men-black-pure-cotton-casual-shirt/2127876/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (49% OFF)
+After discount: Rs. 662
+Link: https://www.myntra.comshirts/roadster/the-roadster-lifestyle-co-men-maroon--navy-blue-regular-fit-checked-casual-shirt/10398073/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 2399
+Discount: (49% OFF)
+After discount: Rs. 1223
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue-checked-hooded-casual-shirt/14639744/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (48% OFF)
+After discount: Rs. 675
+Link: https://www.myntra.comshirts/roadster/roadster-men-black--grey-shadow-check-casual-shirt/1667077/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (48% OFF)
+After discount: Rs. 675
+Link: https://www.myntra.comshirts/roadster/roadster-men-navy-blue-checked-pure-cotton-casual-shirt/11327214/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (48% OFF)
+After discount: Rs. 675
+Link: https://www.myntra.comshirts/roadster/roadster-men-olive-green--black-tartan-checks-opaque-pure-cotton-sustainable-casual-shirt/14879116/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (47% OFF)
+After discount: Rs. 688
+Link: https://www.myntra.comshirts/roadster/roadster-men-multicoloured-windowpane-checks-opaque-pure-cotton-sustainable-casual-shirt/14878040/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (47% OFF)
+After discount: Rs. 688
+Link: https://www.myntra.comshirts/roadster/roadster-men-maroon--grey-slim-fit-checked-casual-shirt/12947370/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1299
+Discount: (47% OFF)
+After discount: Rs. 688
+Link: https://www.myntra.comshirts/roadster/roadster-men-maroon--blue-checked-casual-shirt/14849842/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1199
+Discount: [45%]
+After discount: Rs. 649
+Link: https://www.myntra.comshirts/roadster/roadster-men-teal-blue-cotton-casual-shirt/11903988/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Original Price: Rs. 1799
+Discount: (36% OFF)
+After discount: Rs. 1150
+Link: https://www.myntra.comshirts/roadster/roadster-men-blue--white-regular-fit-striped-casual-cotton-linen-shirt/11958044/buy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+  And I print the final product list to the console                             # steps.Myntra.printSortedResults()
+]]></system-out>
+  </testcase>
+</testsuite>
